@@ -3,6 +3,10 @@ html {
 	padding: 0;
 }
 
+* {
+	font-family: Poppins;
+}
+
 body {
 	background-color: #000;
 	margin: 0;
@@ -17,5 +21,23 @@ a {
 
 ul {
 	padding: 0;
+	margin: 0;
 	list-style: none;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	margin: 0;
+	margin-bottom: 30px;
+	padding: 0;
+	width: 1000px;
+	text-align: center;
+	font-size: 64px;
+	font-weight: 500;
+	line-height: 1.4;
+	color: #fff;
 }
