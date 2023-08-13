@@ -1,0 +1,81 @@
+.main-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 88px;
+	width: 100vw;
+	position: fixed;
+	z-index: 100;
+	backdrop-filter: blur(30px);
+	background: rgba(0, 0, 0, 0.2);
+	border-bottom: 1px solid #1a1a1a;
+}
+
+.logo {
+	object-fit: cover;
+	object-position: center center;
+	flex-shrink: 0;
+	max-width: 100%;
+	width: 150px;
+	height: auto;
+}
+
+.navigation {
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+	width: 1680px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.navigation-list {
+	display: flex;
+	align-items: center;
+	margin-right: auto;
+	margin-left: 20px;
+}
+
+.navigation-item:not(:last-child) {
+	margin-right: 48px;
+}
+
+.navigation-logo {
+	margin: 10px 60px 0 0;
+}
+
+.header-link {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	position: relative;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1;
+	padding: 35px 0;
+}
+
+.teddy-icon {
+	width: 24px;
+	height: 24px;
+	margin: 0px 0px 0px 5px;
+}
+
+.client-icon {
+	margin: 0px 0px 0px 5px;
+}
+
+.connect-wallet {
+	padding: 15px 35px;
+	color: rgb(13, 15, 14);
+	background: #fff;
+	border-radius: 30px;
+	margin-right: 20px;
+	font-family: Poppins;
+	height: 44px;
+	border-radius: 48px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1;
+	border: 1px solid rgb(255, 255, 255);
+}
