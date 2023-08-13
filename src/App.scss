@@ -10,13 +10,21 @@ html {
 body {
 	background-color: #000;
 	margin: 0;
-	overflow: hidden;
+	overflow: visible;
 }
 
 a {
 	font-family: Poppins;
 	text-decoration: none;
 	color: rgb(196, 197, 196);
+}
+
+main {
+	max-width: 1680px;
+	width: 100%;
+	min-height: calc(100vh - 87px);
+	margin-top: 0;
+	overflow: visible;
 }
 
 ul {

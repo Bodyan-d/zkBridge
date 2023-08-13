@@ -1,10 +1,14 @@
 .main-header {
+	height: 88px;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	height: 88px;
-	width: 100vw;
+	flex-wrap: nowrap;
+	top: 0px;
+	min-width: 1300px;
 	position: fixed;
+	background: transparent;
+	justify-content: space-between;
+	width: 100vw;
 	z-index: 100;
 	backdrop-filter: blur(30px);
 	background: rgba(0, 0, 0, 0.2);
