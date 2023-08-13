@@ -1,8 +1,10 @@
+import VideoSection from '../VideoSection/VideoSection';
+
 function Home(params) {
 	return (
-		<section>
-			<button></button>
-		</section>
+		<>
+			<VideoSection />
+		</>
 	);
 }
 
