@@ -8,8 +8,8 @@ html {
 }
 
 body {
-	background-color: #000;
-	margin: 0;
+	background: black;
+	color: white;
 	overflow: visible;
 }
 
@@ -22,9 +22,15 @@ a {
 main {
 	max-width: 1680px;
 	width: 100%;
+	position: relative;
 	min-height: calc(100vh - 87px);
-	margin-top: 0;
+	margin-top: 0px;
 	overflow: visible;
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
 }
 
 ul {
@@ -48,4 +54,18 @@ h1 {
 	font-weight: 500;
 	line-height: 1.4;
 	color: #fff;
+}
+
+.App {
+	color: white;
+	position: relative;
+	min-width: 1300px;
+	min-height: 100vh;
+	overflow: auto;
+	background: black;
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
 }

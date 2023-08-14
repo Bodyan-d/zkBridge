@@ -4,15 +4,17 @@ import { Link } from 'react-router-dom';
 function VideoSection(params) {
 	return (
 		<section className='main-section'>
-			<video
-				preload='auto'
-				autoplay=''
-				loop='loop'
-				playsinline=''
-				id='h-video'
-				src={VideoPc}
-				className='main-video'
-			></video>
+			<div className='video-container'>
+				<video
+					preload='auto'
+					autoPlay
+					loop='loop'
+					playsInline
+					id='h-video'
+					src={VideoPc}
+					className='main-video'
+				></video>
+			</div>
 			<div className='main-desc'>
 				<h1>Trustless Cross-chain Bridges Made Practical</h1>
 				<p className='main-paragraph'>

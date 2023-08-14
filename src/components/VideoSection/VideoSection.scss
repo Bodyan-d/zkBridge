@@ -5,24 +5,35 @@
 }
 
 .main-section {
+	width: max-content;
+	display: inline-block;
+	overflow: hidden;
+	display: flex;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.video-container {
+	width: 100vw;
 	height: calc(100vh - 87px);
 	min-width: 1300px;
 	margin-top: 89px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	box-sizing: border-box;
 }
 
 .main-desc {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
 	left: 50%;
 	top: 50%;
 	position: absolute;
 	translate: -50% -35%;
 	margin-top: 12px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .main-paragraph {
@@ -73,4 +84,9 @@
 	display: flex;
 	align-items: center;
 	flex-direction: row;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: normal;
 }
