@@ -26,6 +26,45 @@
 
 .introducing-info {
 	width: 540px;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: normal;
+}
+
+.introducing-info p {
+	font-size: 16px;
+	line-height: 160%;
+	color: #ffffffb3;
+}
+
+.introducing-info p:not(:last-child) {
+	margin-bottom: 24px;
+}
+
+.introducing-info p:last-child {
+	margin-bottom: 50px;
+}
+
+.introducing-links {
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	color: #fff;
+}
+
+.introducing-link {
+	font-size: 18px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	transition: color 0.2s ease-in-out;
+}
+
+.introducing-link:not(:last-child) {
+	margin-right: 56px;
 }
 
 .introducing-img-item {

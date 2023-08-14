@@ -1,4 +1,5 @@
 import ProtocolImage from '../../images/protocol-img.gif';
+import ArrowLink from '../../svg/arrow-link.svg';
 
 function Introducing(params) {
 	return (
@@ -24,6 +25,16 @@ function Introducing(params) {
 						associated proofs are verified, and updates the current main chain
 						of the sender chain.
 					</p>
+
+					<div className='introducing-links'>
+						<a href={ArrowLink} className='introducing-link'>
+							Read Doc <img src='' alt='' />
+						</a>
+						<a href={ArrowLink} className='introducing-link'>
+							Tech paper
+						</a>
+						<img src='' alt='' />
+					</div>
 				</li>
 				<li className='introducing-img-item'>
 					<img
