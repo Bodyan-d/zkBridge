@@ -1,8 +1,7 @@
-.introducing {
+.zkLightClient {
 	width: 1680px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 80px;
 }
 
 .second-title {
@@ -14,7 +13,7 @@
 	margin-top: 160px;
 }
 
-.introducing-list {
+.zkLightClient-list {
 	color: #fff;
 	margin: 0px;
 	padding: 0px;
@@ -25,37 +24,37 @@
 	justify-content: center;
 }
 
-.introducing-info {
+.zkLightClient-info {
+	margin-left: 60px;
 	width: 551px;
-	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
 	font-family: Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	line-height: normal;
 }
 
-.introducing-info p {
+.zkLightClient-info p {
 	font-size: 16px;
 	line-height: 160%;
 	color: #ffffffb3;
 }
 
-.introducing-info p:not(:last-child) {
+.zkLightClient-info p:not(:last-child) {
 	margin-bottom: 24px;
 }
 
-.introducing-info p:last-child {
+.zkLightClient-info p:last-child {
 	margin-bottom: 50px;
 }
 
-.introducing-links {
+.zkLightClient-links {
 	display: flex;
 	align-items: center;
 	font-size: 18px;
 	color: #fff;
 }
 
-.introducing-link {
+.zkLightClient-link {
 	font-size: 18px;
 	color: #fff;
 	display: flex;
@@ -64,35 +63,33 @@
 	transition: color 0.2s ease-in-out;
 }
 
-.introducing-link:not(:last-child) {
+.zkLightClient-link:not(:last-child) {
 	margin-right: 56px;
 }
 
-.introducing-img-item {
-	margin-left: 60px;
+.zkLightClient-img-item {
 	width: 600px;
-	height: 460px;
 	position: relative;
 }
 
-.introducing-img-item::before {
+.zkLightClient-img-item::after {
+	position: absolute;
 	display: block;
+	left: 0px;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
 	z-index: 2;
 	content: '';
 	width: 100%;
-	height: 100%;
-	position: absolute;
-	background: linear-gradient(
-		180deg,
-		rgba(12, 255, 167, 0.08) 0%,
-		rgba(255, 255, 255, 0) 100%
-	);
-	border: 1px solid rgba(255, 255, 255, 0.1);
-	border-radius: 16px;
-	box-sizing: border-box;
+	background: url('../../images/home_layerzero.gif') no-repeat center;
+	background-size: contain;
+	mix-blend-mode: lighten;
+	border-radius: 15.04px;
 }
 
-.introducing-img {
+.zkLightClient-img {
 	display: block;
 	width: 100%;
 	height: 100%;

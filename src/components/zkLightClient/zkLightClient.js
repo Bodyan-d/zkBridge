@@ -1,12 +1,13 @@
-import ProtocolImage from '../../images/protocol-img.gif';
 import ArrowLink from '../../svg/arrow-link.svg';
+import Homelajer from '../../images/home_layerzero.gif';
 
-function Introducing(params) {
+function zkLightClient(params) {
 	return (
-		<section className='introducing'>
-			<h2 className='second-title'>Introducing zkBridge Protocol</h2>
-			<ul className='introducing-list'>
-				<li className='introducing-info'>
+		<section className='zkLightClient'>
+			<h2 className='second-title'>zkLightClient on LayerZero</h2>
+			<ul className='zkLightClient-list'>
+				<li className='zkLightClient-img-item'></li>
+				<li className='zkLightClient-info'>
 					<p>
 						zkBridge uses zkSNARKs to enable a prover to efficiently convince
 						the receiver chain that a certain state transition happened on the
@@ -26,26 +27,15 @@ function Introducing(params) {
 						of the sender chain.
 					</p>
 
-					<div className='introducing-links'>
-						<a href={ArrowLink} className='introducing-link'>
-							Read Doc <img src={ArrowLink} alt='' />
-						</a>
-						<a href={ArrowLink} className='introducing-link'>
-							Tech paper
-							<img src={ArrowLink} alt='' />
+					<div className='zkLightClient-links'>
+						<a href='' className='zkLightClient-link'>
+							Learn more <img src={ArrowLink} alt='' />
 						</a>
 					</div>
-				</li>
-				<li className='introducing-img-item'>
-					<img
-						src={ProtocolImage}
-						alt='ProtocolImage'
-						className='introducing-img'
-					/>
 				</li>
 			</ul>
 		</section>
 	);
 }
 
-export default Introducing;
+export default zkLightClient;
